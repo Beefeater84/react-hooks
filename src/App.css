@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+#nav-mobile{
+  display: flex;
+}
+
+#nav-mobile li{
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+#nav-mobile a:hover{
+  text-decoration: underline;
+}
+
+.alert{
+  text-align: left;
+  width: 100%;
+  background-color: goldenrod;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid darkgoldenrod;
+}
+
+.btn{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin: 20px auto 0 auto;
+  border-radius: 5px;
 }
